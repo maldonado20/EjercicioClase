@@ -1,0 +1,40 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilo para el div de tu compañero */
+#MM230159 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para tu div */
+#MM230160 {
+    background-color: #008CBA;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de hover */
+#MM230160:hover {
+    transform: scale(1.05);
+}
+
+#MM230160 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#MM230160 p {
+    font-size: 1.1em;
+}
